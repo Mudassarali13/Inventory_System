@@ -417,7 +417,7 @@ if "page" not in st.session_state:
 
 
 #Load the logo image
-logo = Image.open("assets/logo.png")
+logo = Image.open("logo.png")
 
 
 
@@ -478,7 +478,7 @@ def home_page():
         """, unsafe_allow_html=True)
 
     with col2:
-        st.image("assets/logo.png", caption="Website Logo", use_container_width=True)
+        st.image("logo.png", caption="Website Logo", use_container_width=True)
 
 
     st.markdown("<hr>", unsafe_allow_html=True)
